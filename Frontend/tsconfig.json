@@ -1,0 +1,94 @@
+{
+   "compilerOptions": {
+      "lib": ["dom", "dom.iterable", "esnext"],
+      // "target": "es5",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "target": "ESNext",
+      "module": "esnext",
+      "jsx": "preserve",
+      "moduleResolution": "bundler",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "incremental": true,
+      "plugins": [
+         {
+            "name": "next"
+         }
+      ],
+      "paths": {
+         "@/*": ["./src/*"],
+         "@/userend/*": ["./src/app/(userend)/*"],
+         "@/userend/with_transparent_navbar/*": [
+            "./src/app/(userend)/(with_transparent_navbar)/*"
+         ],
+         "@/userend/without_transparent_navbar/*": [
+            "./src/app/(userend)/(without_transparent_navbar)/*"
+         ],
+         "@/userend/blog/details/*": [
+            "./src/app/(userend)/(without_transparent_navbar)/blog/[slug]/*"
+         ],
+         "@/userend/without_transparent_navbar/products/details/*": [
+            "./src/app/(userend)/(without_transparent_navbar)/product-sale/[slug]/*"
+         ],
+         "@/userend/without_transparent_navbar/products-search/*": [
+            "./src/app/(userend)/(without_transparent_navbar)/product-search/*"
+         ],
+         "@/userend/without_transparent_navbar/organisation/details/*": [
+            "./src/app/(userend)/(without_transparent_navbar)/organisation/[id]/*"
+         ],
+         "@auth/*": ["./src/app/(auth)/*"],
+         "@/buyer/*": ["./src/app/buyer/*"],
+         "@/buyer/order-history/*": ["./src/app/buyer/(order-history)/*"],
+         "@/buyer/product-requests/*": ["./src/app/buyer/(product-requests)/*"],
+         "@/saller/auth/*": ["./src/app/(saller-auth)/*"],
+         "@/saller/*": ["./src/app/saller/*"],
+         "@/saller/products/*": ["./src/app/saller/(products)/*"],
+         "@/saller/orders/*": ["./src/app/saller/(orders)/*"],
+         "@/saller/messages/*": ["./src/app/saller/(messages)/*"],
+         "@/saller/reviews/*": ["./src/app/saller/(reviews)/*"],
+         "@/saller/subscriptions/*": ["./src/app/saller/(subscriptions)/*"],
+         "@/saller/companies/*": ["./src/app/saller/(companies)/*"],
+         "@/saller/settings/*": ["./src/app/saller/(settings)/*"],
+         "@/saller/support/*": ["./src/app/saller/(support)/*"],
+         "@admin/*": ["./src/app/(admin)/admin/*"],
+         "@/admin/users/*": ["./src/app/(admin)/admin/(users)/*"],
+         "@/admin/companies/*": ["./src/app/(admin)/admin/(companies)/*"],
+         "@admin/category_types/*": [
+            "./src/app/(admin)/admin/(category-types)/*"
+         ],
+         "@admin/categories/*": ["./src/app/(admin)/admin/(categories)/*"],
+         "@/admin/sub_categories/*": [
+            "./src/app/(admin)/admin/(sub_categories)/*"
+         ],
+         "@/admin/products/*": ["./src/app/(admin)/admin/(products)/*"],
+         "@/admin/orders/*": ["./src/app/(admin)/admin/(orders)/*"],
+         "@/admin/cities/*": ["./src/app/(admin)/admin/(cities)/*"],
+         "@/admin/reviews/*": ["./src/app/(admin)/admin/(reviews)/*"],
+         "@/admin/subscriptions/*": [
+            "./src/app/(admin)/admin/(subscriptions)/*"
+         ],
+         "@/admin/buyer-complaints/*": [
+            "./src/app/(admin)/admin/(buyer-complaints)/*"
+         ],
+         "@/admin/blogs/*": ["./src/app/(admin)/admin/(blogs)/*"],
+         "@/admin/settings/*": ["./src/app/(admin)/admin/(settings)/*"],
+         "@/admin/support/*": ["./src/app/(admin)/admin/(support)/*"]
+      },
+      "typeRoots": ["./types", "./node_modules/@types"]
+   },
+   "include": [
+      "next-env.d.ts",
+      "**/*.ts",
+      "**/*.tsx",
+      ".next/types/**/*.ts",
+      "types/**/*.d.ts",
+      "src/app/buyer/(order-history)/select-product",
+      "server.js"
+   ],
+   "exclude": ["node_modules"]
+}

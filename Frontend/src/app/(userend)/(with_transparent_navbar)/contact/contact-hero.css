@@ -1,0 +1,37 @@
+.image-container {
+   position: relative;
+   width: 500px; /* Adjust as needed */
+   height: 500px; /* Adjust as needed */
+   background-color: #3498db; /* Background color of the container */
+   overflow: hidden;
+}
+
+.main-image {
+   width: 100%;
+   height: 100%;
+   object-fit: cover; /* Ensures the image covers the container */
+
+   /* Create a transparent window effect using a CSS mask */
+   mask-image: radial-gradient(
+      circle at 200px 200px,
+      transparent 100px,
+      black 110px
+   );
+   -webkit-mask-image: radial-gradient(
+      circle at 200px 200px,
+      transparent 100px,
+      black 110px
+   );
+}
+
+.transparent-window {
+   position: absolute;
+   top: 100px; /* Adjust the position of the transparent window */
+   left: 300px; /* Adjust the position of the transparent window */
+   width: 200px;
+   height: 200px;
+   background: transparent;
+   pointer-events: none; /* Makes sure it's not clickable */
+   border-radius: 20px; /* Optional rounded corners */
+   z-index: 2; /* Makes sure it’s above the image */
+}

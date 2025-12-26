@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9df033da-60cf-44eb-8147-bd481308c7af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/app/(admin)/admin/(buyer-complaints)/buyer-complaints/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(admin)/admin/(buyer-complaints)/buyer-complaints/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/saller/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/saller/components/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/saller/components/SidebarItem/MessagesItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/saller/components/SidebarItem/MessagesItem.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2ps2bQdeKMGz1ooHjEKdI2dWgN0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9df033da-60cf-44eb-8147-bd481308c7af" name="Default Changelist" comment="" />
+      <created>1733540532628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733540532628</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="241" y="112" key="com.intellij.ide.util.TipDialog" timestamp="1733540691955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="241" y="112" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1733540691955" />
+  </component>
+</project>

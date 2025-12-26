@@ -1,0 +1,33 @@
+/* TODO: container area start */
+.container {
+   max-width: 1221px !important;
+   margin: 0 auto;
+}
+@media screen and (max-width: 1325px) {
+   .container {
+      max-width: 1200px !important;
+   }
+}
+@media screen and (max-width: 1280px) {
+   .container {
+      max-width: 90% !important;
+   }
+}
+/* TODO: container area end */
+
+.hero-section {
+   background: linear-gradient(
+      90.1deg,
+      rgba(221, 223, 246, 1) 0%,
+      rgba(192, 198, 240, 1) 49.79998767375946%,
+      rgba(208, 214, 255, 1) 100%
+   );
+}
+
+.category-section h2 {
+   background: linear-gradient(
+      270deg,
+      rgba(66, 133, 244, 1) 0%,
+      rgba(38, 77, 142, 1) 100%
+   );
+}

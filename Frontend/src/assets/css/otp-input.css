@@ -1,0 +1,15 @@
+.otp-input-container {
+   width: 100%;
+}
+.otp-input {
+   width: 100% !important;
+   box-shadow:
+      inset -1px -1px 2px 0px rgba(101, 101, 101, 0.1),
+      inset 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(10px);
+   background-color: rgba(255, 255, 255, 0.5);
+   color: #2f2f2f;
+   border-radius: 10px;
+   border: none;
+   margin-right: 7px !important;
+}

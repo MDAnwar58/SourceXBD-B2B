@@ -1,0 +1,16 @@
+/* TODO: container area start */
+.container {
+   max-width: 1221px !important;
+   margin: 0 auto;
+}
+@media screen and (max-width: 1325px) {
+   .container {
+      max-width: 1200px !important;
+   }
+}
+@media screen and (max-width: 1280px) {
+   .container {
+      max-width: 90% !important;
+   }
+}
+/* TODO: container area end */

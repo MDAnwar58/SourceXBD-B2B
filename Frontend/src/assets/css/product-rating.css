@@ -1,0 +1,9 @@
+.proudct-rating-container .rating-stars :is(svg) {
+  width: 15px !important; /* Customize the width of the stars */
+  height: 15px !important; /* Customize the height of the stars */
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.proudct-rating-container .rating-stars :is(svg:last-child) {
+  margin: 0 !important; /* Remove margin for the last star */
+}

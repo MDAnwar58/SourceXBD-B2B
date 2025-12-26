@@ -1,0 +1,79 @@
+.table-head-th-l {
+   background-color: rgba(66, 133, 244, 0.05);
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+.table-head-th-r {
+   background-color: rgba(66, 133, 244, 0.05);
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.table-head-th {
+   background-color: rgba(66, 133, 244, 0.05);
+}
+
+/* Apply transitions to .table-body-l, .table-body-r, and .table-body */
+table table-body-tr {
+   border-bottom: 2px solid rgb(54, 54, 54);
+}
+table tr .table-body-td-l,
+.table-body-td-r,
+.table-body-td {
+   transition:
+      background 0.3s ease,
+      color 0.15s ease;
+}
+table tr:hover .table-body-td-l {
+   background: rgba(66, 133, 244, 0.05);
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   color: black;
+}
+table tr:hover .table-body-td-r {
+   background: rgba(66, 133, 244, 0.05);
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   color: black;
+}
+table tr:hover .table-body-td {
+   background: rgba(66, 133, 244, 0.05);
+   color: black;
+}
+table tr td a {
+   color: black;
+}
+
+/* sidebar css start */
+.sidebar-item {
+   position: relative;
+   z-index: 999;
+}
+.subscriptions::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 221.5px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+
+.sidebar-sub-item {
+   position: relative;
+   z-index: 999;
+}
+.sidebar-sub-item::before {
+   content: "";
+   position: absolute;
+   top: 21px;
+   left: 18%;
+   transform: translateX(-50%);
+   width: 49.9%;
+   height: 1.1px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}

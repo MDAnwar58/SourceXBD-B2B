@@ -1,0 +1,295 @@
+/* TODO: container area start */
+.container {
+   max-width: 1371px !important;
+   margin: 0 auto;
+}
+@media screen and (max-width: 1325px) {
+   .container {
+      max-width: 1200px !important;
+   }
+}
+@media screen and (max-width: 1280px) {
+   .container {
+      max-width: 90% !important;
+   }
+}
+
+/* sidebar start */
+.sidebar-item {
+   position: relative;
+   z-index: 999;
+}
+.dashboard::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 122.5px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.categories::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 172px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.orders::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 221.7px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.subscriptions::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 121.7px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.settings::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 121.7px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.companies::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 171.1px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.companies-with-subitem::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 219.3px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.support::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 121.5px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.dashboard-sidebar-sub-item {
+   position: relative;
+   z-index: 999;
+}
+.dashboard-sidebar-sub-item::before {
+   content: "";
+   position: absolute;
+   top: 21px;
+   left: 18%;
+   transform: translateX(-50%);
+   width: 48.5%;
+   height: 1.1px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.dashboard-sidebar-sub-item.qucik_action::after {
+   content: "";
+   position: absolute;
+   top: 21px;
+   left: 13%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 153px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.sidebar-sub-item {
+   position: relative;
+   z-index: 999;
+}
+.sidebar-sub-item::before {
+   content: "";
+   position: absolute;
+   top: 21px;
+   left: 18%;
+   transform: translateX(-50%);
+   width: 49%;
+   height: 1.1px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.sidebar-sub-item.company_verification::after {
+   content: "";
+   position: absolute;
+   top: 21px;
+   left: 13%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 85px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.sidebar-sub-item.company_settings::after {
+   content: "";
+   position: absolute;
+   top: 21px;
+   left: 13%;
+   transform: translateX(-50%);
+   width: 1.1px;
+   height: 45.5px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -999;
+}
+.sidebar-sub-item-sub-item {
+   position: relative;
+   z-index: 99; /* Ensure the main element is on top */
+}
+.sidebar-sub-item-sub-item::before {
+   content: "";
+   position: absolute;
+   top: 50%;
+   left: 13%;
+   transform: translate(-50%, -50%);
+   width: 49%;
+   height: 1.1px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -99; /* Send the line behind the sidebar item */
+}
+.sidebar-sub-item-sub-item.company_settings::before {
+   content: "";
+   position: absolute;
+   top: 50%;
+   left: 7%;
+   transform: translate(-50%, -50%);
+   width: 49%;
+   height: 1.1px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -99; /* Send the line behind the sidebar item */
+}
+.sidebar-sub-item-sub-item.verify::before {
+   content: "";
+   position: absolute;
+   top: 50%;
+   left: 7%;
+   transform: translate(-50%, -50%);
+   width: 49%;
+   height: 1.1px;
+   margin-bottom: 7%;
+   background-color: rgb(180, 180, 180);
+   z-index: -99; /* Send the line behind the sidebar item */
+}
+/* sidebar end */
+/* table start */
+/* rgba(66,133,244,0.05) */
+.table-head-th-l {
+   background-color: rgba(66, 133, 244, 0.05);
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+.table-head-th-r {
+   background-color: rgba(66, 133, 244, 0.05);
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.table-head-th {
+   background-color: rgba(66, 133, 244, 0.05);
+}
+
+/* Apply transitions to .table-body-l, .table-body-r, and .table-body */
+table table-body-tr {
+   border-bottom: 2px solid rgb(54, 54, 54);
+}
+table tr .table-body-td-l,
+.table-body-td-r,
+.table-body-td {
+   transition:
+      background 0.3s ease,
+      color 0.15s ease;
+}
+table tr:hover .table-body-td-l {
+   background: linear-gradient(
+      180deg,
+      rgba(66, 133, 244, 1) 0%,
+      rgba(85, 118, 179, 1) 100%
+   );
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   color: white;
+}
+table tr:hover .table-body-td-r {
+   background: linear-gradient(
+      180deg,
+      rgba(66, 133, 244, 1) 0%,
+      rgba(85, 118, 179, 1) 100%
+   );
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   color: white;
+}
+table tr:hover .table-body-td {
+   background: linear-gradient(
+      180deg,
+      rgba(66, 133, 244, 1) 0%,
+      rgba(85, 118, 179, 1) 100%
+   );
+   color: white;
+}
+table tr td a {
+   color: black;
+}
+/* table end */
+
+/* common start */
+/* .bg-blue-gradient {
+  transition: all linear 0.3s;
+}
+.bg-blue-gradient:hover {
+  background-image: var(--admin-gradient-bg-color);
+  transition: opacity 1s linear;
+} */
+/* common end */

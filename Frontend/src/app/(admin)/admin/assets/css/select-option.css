@@ -1,0 +1,13 @@
+/* Hide arrow in most browsers */
+.select-box {
+  appearance: none; /* For modern browsers */
+  -webkit-appearance: none; /* For Chrome, Safari */
+  -moz-appearance: none; /* For Firefox */
+  background: none; /* Remove default background */
+  padding-right: 20px; /* Space for custom arrow, if needed */
+}
+
+/* Hide arrow in IE and Edge */
+.select-box::-ms-expand {
+  display: none;
+}

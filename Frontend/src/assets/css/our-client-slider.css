@@ -1,0 +1,83 @@
+.out-client-slider-container .swiper {
+   width: 100%;
+   height: 100%;
+}
+.out-client-slider-container .swiper-slide {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding: 1.9rem 0.5rem;
+   /* height: 59vh; */
+}
+.out-client-slider-container .swiper-slide.swiper-slide-active {
+   width: 70.05% !important;
+}
+.out-client-slider-container .swiper-slide.swiper-slide-next {
+   margin-left: 3em !important;
+}
+.out-client-slider-container .swiper-slide.swiper-slide-prev {
+   margin-right: 3em !important;
+}
+.our-client-slider-transform-translate-middle {
+   transform: translate(-50%, -50%);
+}
+.our-client-slider-area {
+   position: relative;
+}
+.our-client-slider-area .slider-navigation {
+   position: absolute;
+   top: -3.7em;
+   right: 0;
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   z-index: 10;
+}
+.our-client-slider-area .slider-controler .our-client-swiper-pagination {
+   display: flex;
+   flex-direction: row;
+   gap: 0.1rem;
+   justify-content: center;
+   padding-top: 1rem;
+}
+
+@media screen and (max-width: 1492px) {
+   .out-client-slider-container .swiper-slide {
+      /* height: 63vh; */
+   }
+}
+@media screen and (max-width: 1280px) {
+   .out-client-slider-container .swiper-slide.swiper-slide-active {
+      width: 85% !important;
+   }
+}
+@media screen and (max-width: 1075px) {
+   .out-client-slider-container .swiper-slide.swiper-slide-active {
+      width: 100% !important;
+   }
+   .out-client-slider-container .swiper-slide.swiper-slide-next {
+      margin-left: 0 !important;
+   }
+   .out-client-slider-container .swiper-slide.swiper-slide-prev {
+      margin-right: 0 !important;
+   }
+}
+@media screen and (max-width: 925px) {
+   .out-client-slider-container .swiper-slide {
+      height: auto !important;
+   }
+   .our-client-slider-transform-translate-middle {
+      transform: translate(0, 0);
+   }
+   .our-client-slider-area .slider-controler .our-client-swiper-pagination {
+      padding-top: 0rem;
+   }
+}
+@media (max-width: 675px) {
+   .our-client-slider-area .slider-navigation {
+      top: -2.9em;
+      left: 50%;
+      transform: translateX(-50%);
+      justify-content: center;
+   }
+}

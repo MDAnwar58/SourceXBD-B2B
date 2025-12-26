@@ -1,0 +1,7 @@
+.otp-input-container {
+   background-color: greenyellow;
+}
+.otp-input-container div input {
+   background-color: red;
+   width: 100% !important;
+}

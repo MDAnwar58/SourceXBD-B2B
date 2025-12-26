@@ -1,0 +1,40 @@
+.category-manus {
+   transition: opacity 0.3s ease-in-out;
+   overflow: visible;
+   opacity: 1; /* Default opacity */
+}
+
+/* Animation for height and opacity */
+@keyframes fadeIn {
+   from {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+   }
+   to {
+      max-height: 500px; /* Set a reasonable max-height when visible */
+      opacity: 1;
+      overflow: visible;
+   }
+}
+
+@keyframes fadeOut {
+   from {
+      max-height: 500px; /* Set a reasonable max-height when visible */
+      opacity: 1;
+      overflow: visible;
+   }
+   to {
+      max-height: 0; /* Collapse height */
+      opacity: 0; /* Fade out */
+      overflow: hidden;
+   }
+}
+
+.category-manus.hidden-manus {
+   animation: fadeOut 0.3s ease-in-out forwards; /* Collapse animation */
+}
+
+.category-manus.visible-manus {
+   animation: fadeIn 0.3s ease-in-out forwards; /* Expand animation */
+}

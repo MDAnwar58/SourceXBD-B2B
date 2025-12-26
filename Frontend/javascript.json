@@ -1,0 +1,18 @@
+{
+  "Console Log": {
+    "prefix": "clg",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "Insert console.log statement"
+  },
+  "Function Declaration": {
+    "prefix": "fn",
+    "body": [
+      "function $1($2) {",
+      "  $3",
+      "}"
+    ],
+    "description": "Insert function declaration"
+  }
+}

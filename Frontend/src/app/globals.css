@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+:root {
+   --foreground-rgb: 0, 0, 0;
+   --background-start-rgb: 214, 219, 220;
+   --background-end-rgb: 255, 255, 255;
+   --card-shadow-with-5: -1px -1px 5px 0px rgba(101, 101, 101, 0.2),
+      1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+   --button-shadow-with-2: -1px -1px 2px 0px rgba(101, 101, 101, 0.1),
+      1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+   --bg-180-dwg-with-opacity-0_5: 180deg, rgba(66, 133, 244, 0.5) 0%,
+      rgba(85, 118, 179, 0.5) 100%;
+   /* userena css variables */
+   --proudct-card-shadow: -2px -2px 10px 0px rgba(101, 101, 101, 0.25),
+      2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+   /* admin css variables */
+   --admin-sider-item-background-gradient: 193.88deg, rgba(66, 133, 244, 1) 0%,
+      rgba(85, 118, 179, 1) 100%;
+   --admin-sider-item-shadow: 2px 2px 2px 0px rgba(123, 123, 123, 0.4);
+   --admin-sider-item-subitem-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+   --admin-sider-item-subitem-sub-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+   --admin-card-shadow: -1px -1px 5px 0px rgba(101, 101, 101, 0.2),
+      1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+   --admin-card-subcard-shadow: -2px -2px 6px 0px rgba(101, 101, 101, 0.2),
+      2px 2px 6px 0px rgba(0, 0, 0, 0.2);
+   --admin-table-btn-shadow: -2px -2px 10px 0px rgba(101, 101, 101, 0.25),
+      2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+   --admin-gradient-bg-color: 180deg, rgba(66, 133, 244, 1) 0%,
+      rgba(85, 118, 179, 1) 100%;
+   --admin-input-shodow: inset -1px -1px 5px 0px rgba(0, 0, 0, 0.02),
+      inset 1px 1px 5px 0px rgba(0, 0, 0, 0.02);
+   --userend-card-shodow: inset -1px -1px 5px 0px rgba(0, 0, 0, 0.02),
+      inset 1px 1px 5px 0px rgba(0, 0, 0, 0.02);
+   --admin-shadow-inset: inset -1px -1px 10px 0px rgba(101, 101, 101, 0.05),
+      inset 2px 2px 10px 0px rgba(0, 0, 0, 0.05);
+   --admin-shadow-add-inset: inset -1px -1px 2px 0px rgba(101, 101, 101, 0.1),
+      inset 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+   --admin-shadow-xs: -1px -1px 2px 0px rgba(101, 101, 101, 0.2),
+      1px 1px 2px 0px rgba(149, 149, 149, 0.2);
+   --admin-chat-right-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1),
+      -1px -1px 1px 0px rgba(101, 101, 101, 0.1);
+   /* auth css variables start */
+   --auth-card-shadow: var(--card-shadow-with-5);
+   --auth-social-btn-shadow: var(--button-shadow-with-2);
+   --auth-bg-gradient: 90.1deg, rgba(221, 223, 246, 1) 0%,
+      rgba(192, 198, 240, 1) 47.999998927116394%, rgba(208, 214, 255, 1) 100%;
+   --auth-verify-code-btn-gradient: var(--bg-180-dwg-with-opacity-0_5);
+   /* userend css variables start */
+   --product-card: var(--proudct-card-shadow);
+   /* buyer css variables start */
+   --buyer-card: -1px -1px 5px 0px rgba(101, 101, 101, 0.2),
+      1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+   :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
+   }
+}
+
+@layer utilities {
+   .text-balance {
+      text-wrap: balance;
+   }
+}
+
+/* header css start */
+header nav {
+   width: 100%;
+}
+header nav .btn-location-icons {
+   background: linear-gradient(
+      180deg,
+      rgba(66, 133, 244, 1) 35.08373498916626%,
+      rgba(85, 118, 179, 1) 100%
+   );
+}
+.location-btn {
+   background: linear-gradient(
+      90.1deg,
+      rgba(221, 223, 246, 1) 0%,
+      rgba(192, 198, 240, 1) 49.79998767375946%,
+      rgba(208, 214, 255, 1) 100%
+   );
+}
+/* header css end */
+
+.transform-translate-middle {
+   transform: translate(-50%, -50%);
+}
+.transform-translate-x-middle {
+   transform: translateX(-50%);
+}
+
+.transform-translate-xs5-middle {
+   transform: translateX(-50%) !important;
+}
+@media screen and (max-width: 335px) {
+   .transform-translate-xs5-middle {
+      transform: translateX(0) !important;
+   }
+}
+.transform-translate-y-middle {
+   transform: translateY(-50%);
+}

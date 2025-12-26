@@ -1,0 +1,21 @@
+{
+   "extends": [
+      "eslint:recommended",
+      "next",
+      "next/core-web-vitals",
+      "next/typescript",
+      "plugin:@next/next/recommended",
+      "prettier"
+   ],
+   "plugins": ["next"],
+   "rules": {
+      "prettier/prettier": "error",
+      "semi": ["error", "always"],
+      "no-unused-vars": "off"
+   },
+   "parserOptions": {
+      "ecmaFeatures": {
+         "jsx": true
+      }
+   }
+}
